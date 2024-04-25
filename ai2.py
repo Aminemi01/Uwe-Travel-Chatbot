@@ -14,7 +14,7 @@ def to_markdown(text):
   text = text.replace('•', '  *')
   return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 # Replace with your actual API key
-API_KEY = "AIzaSyBM7pnvkeM-ZprFbZRtEAEmEflGTFgf1aQ"
+API_KEY = "not availnle IN the UK "
 
 genai.configure(api_key=API_KEY)
 model = GenerativeModel(model_name="gemini-pro")
